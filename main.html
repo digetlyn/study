@@ -1,0 +1,167 @@
+<!DOCTYPE html> 
+<html lang="ko"> 
+    <head>
+        <meta charset="UTF-8"/>  
+        <title>웰시코기</title>
+        <style>
+            @font-face {
+            font-family: 'establishRetrosansOTF';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRetrosansOTF.woff') format('woff');
+             font-weight: normal;
+            font-style: normal;
+            }
+
+            *{  list-style: none;
+                text-decoration: none;
+                font-family: 'establishRetrosansOTF';
+                padding: 0;
+                margin: 0;
+            }
+           
+            #sec01{
+                width: 100%;
+                height: 1100px;
+                background: url(img/bg_img01.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+               
+            }
+
+            #sec02{
+                width: 100%;
+                height: 1100px;
+                background-color: brown;
+                background: url(img/bg_img02.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+               
+            }
+
+            #sec03{
+                width: 100%;
+                height: 1100px;
+                background-color:darkseagreen
+            }
+
+            #sec04{
+                width: 100%;
+                height: 1100px;
+                background-color:lightpink;
+            }
+            .header_bar{
+                width: 100%;
+                height: 100px;
+                background-color: rgba(255, 255, 255, 0.5);
+                position: fixed;
+                border-bottom: black dotted 1px;
+            }
+            .header{
+            
+                width:1280px;
+                height: 100px;
+                margin: auto;
+                display: flex;
+            }
+            .logo_area {width: 300px;
+                        height: 100px;
+                        }
+            #logo > a {
+                font-size: 50px;
+                line-height: 100px; 
+                color: #000;
+            }
+
+            .nav{
+
+                display: flex;
+                line-height: 100px; 
+                justify-content: flex-end;
+                width: calc(1280px - 300px);
+            }
+            .nav > li {
+                margin-left: 80px;
+                font-size: 20px;
+                
+
+            }
+
+            .nav > li > a{
+                color: #000;
+            }
+
+            .nav > li > a:hover{
+                color:lightskyblue;
+            }
+
+            .u{
+                padding-top:  270px;
+                font-size: 60px;
+                text-align: center;;
+                            
+                    
+            }
+            .o{
+                color: rgb(224, 152, 8);
+                font-weight: normal;
+            
+            }
+
+            .oo{
+                color: firebrick;
+                font-weight: normal;
+            
+            }
+            
+
+            footer{
+                width:100%;
+                height:200px;
+                background-color: black;
+                
+            }
+            footer > div {
+                color:#fff;
+                font-weight: 100;
+                text-align:right;
+                padding-top: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <section id="sec01">
+               
+                    <div class="header_bar">
+                        <div class="header">
+                            <div class="logo_area">
+                                <div id="logo"><a href="#sec01">웰시코기</a></div>
+                                    
+                            </div>
+                            <ul class="nav">
+                                <li class="menu_li"><a href="#sec02">특  성</a></li>
+                                <li class="menu_li"><a href="#sec03">종  류</a></li>
+                                <li class="menu_li"><a href="#sec04">사  진</a></li>
+                            </ul>
+                        </div>
+                    </div>   
+                <div class="u">나는 <b class="o">귀엽</b>지롱? <br> <b>웰시코기 <b class="oo">궁뎅이</b></div> 
+            </section>
+            <section id="sec02">
+                <div>특성</div>
+            </section>
+            <section id="sec03">
+                <div>종류</div>
+            </section>
+            <section id="sec04">
+                <div>사진</div>
+            </section>
+            
+            <footer>
+                <div>Copyright 2022. 송경민 All Rights Reserved.</div>
+            </footer>
+        </div>
+            
+    
+    </body>
+
+</html>
